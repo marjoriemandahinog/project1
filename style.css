@@ -1,19 +1,19 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+nav {
+    background-color:forestgreen;
+    font-size: large;
 }
 
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 480px){ 
-    {background-color:red;}
-    }
-    /* TABLETS */
-    @media (min-width: 577px) and (max-width: 992px){
-     {background-color:blue;}
-    }
-    /* LAPTOPS */
-    @media (min-width: 993px){ 
-     {background-color:orange;}
-    }
+img {
+    padding: 20px;
+    width: 200px;
+    size: auto-fit;
+}
