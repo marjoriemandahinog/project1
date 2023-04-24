@@ -17,3 +17,11 @@ img {
     width: 200px;
     size: auto-fit;
 }
+
+.card:hover {
+    background-color: forestgreen;
+}
+
+.modal {
+    background-color: gray;
+}
